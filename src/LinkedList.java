@@ -85,4 +85,5 @@ public class LinkedList<T> {
 			System.out.println(tempnode.getData());
 			tempnode=tempnode.nextNode;
 		} while (tempnode!=null);
+	}//end main
 }//end class
