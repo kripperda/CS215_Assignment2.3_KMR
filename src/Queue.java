@@ -33,6 +33,8 @@ public class Queue<T> implements QueueInterface<T> {
 			rear = null;
 		numElements --;
 		return temp;
-		}
+		}//end else
 
-}
+	}//end dequeue
+	
+}//end class
